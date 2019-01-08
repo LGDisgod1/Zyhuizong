@@ -1,0 +1,92 @@
+html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, em, button {
+    margin: 0;
+    padding: 0;
+    }
+    body {
+        font: 12px/1.5 "Microsoft yahei", arial, Simsun, sans-serif;
+        color: #333;
+        background-color: #fff;
+    }
+    ul{
+        list-style: none;
+    }
+    a{
+        color: #3983e5;
+        text-decoration: none;
+    }
+    /* .cl{
+        clear: both;
+    } */
+    .mod{
+        width: 944px;
+        margin: 20px auto;
+        /* background-color: #eeeeee; */
+        overflow: hidden;
+    }
+    /* 消浮动 */
+    /* .mod::after{
+    content: "";
+    clear: both;
+    display: table;
+    } */
+
+    .mod .top{
+        height: 54px;
+        background-color: pink;
+    }
+    .mod .mod-content{
+        border: 1px solid #e0e0e0;
+         height: 312px;
+         border-top-width: 0px;
+         position: relative;
+    }
+     .mod .left{
+        float: left;
+        width:  182px;
+        height: 312px;
+        /* background-color: #555555; */
+       border-right: 1px dotted #a3a3a3;
+    }
+    .mod .right{
+        /* float: left; */
+        /* width: 759px; */margin-left: 182px;
+        height: 312px;
+        border: 1px solid #e0e0e0;
+        border-top-width: 0px;
+        /* background-color: #666666; */
+        padding: 12px 17px 13px 15px;
+       
+    } 
+    .mod .right .select li:first-child{
+        width: 37px;
+        height: 16px;
+        background-color:gold;
+        border-radius: 5px;
+        color: #fff;
+        font-size: 12px;
+        text-align: center;
+        line-height: 16px;
+        font-weight: bold;
+    }
+    .mod .select li.active a{
+        font-size: 10px;
+        color: #fff;
+    }
+    .mod .right .more{
+        position: absolute;
+        top: 6px;
+        right:14px;
+        padding: 2px 8px;
+    }
+    .mod .right .more:hover{
+        /* display: inline-block; */
+        border: 1px solid #3983e5;
+        border-radius: 5px;
+    }
+    .mod .product li{
+        float: left;
+        width: 172px;
+        height: 124px;
+        margin: 0px 5px 5px 0px;
+        background-color:#777;
+    }
